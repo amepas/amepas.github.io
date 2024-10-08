@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>{{ site.name }}</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <h1>
+                Amey Pasarkar
+              </h1>
+              <p>
+                I am a PhD student at Princeton University, working in <a href="https://vertaix.princeton.edu/">Vertaix</a> on developing Artifical Intelligence methods that can be applied across the natural sciences. I am fortunate to be advised by Professor <a href="https://adjiboussodieng.org/">Adji Bousso Dieng</a> and am generously supported by a NSF Graduate Research Fellowship.  
+              </p>
+              <p>
+                Prior to joining Princeton, I graduated from Columbia University with a degree in Operations Research, where I had the privilege of working under Professor <a href="https://www.cs.columbia.edu/~itsik/">Itsik Pe'er</a> on designing probabalistic graphical models for microbial dynamics. 
+              <p>
+                You can contact me at amey [dot] pasarkar [at] princeton [dot] edu. 
+              </p>
+             
+              <p style="text-align:center">
+                <a target="_blank" href="resume.pdf">CV</a> &nbsp;/&nbsp;
+                <a href="https://github.com/amepas">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=fufyS6AAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/ameypasarkar544/"> LinkedIn </a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:35%;max-width:35%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/amey_headshot.jpg">
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+              <p>
+                I have a particular interest in generative modelling and using ML to enable large-scale dataset curation. I like thinking about these problems in the context of efficient training on image and text corpuses, as well as accelerating material discovery. 
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+        <tr onmouseout="cousins_stop()" onmouseover="cousins_start()">
+        <td style="padding:20px;width:26%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='vendi_image'>
+              <img src='images/cousins_ex.jpeg' width="200"></div>
+            <img src='images/cousins_ex.jpeg' width="200">
+          </div>
+          <script type="text/javascript">
+            function cousins_start() {
+              document.getElementById('cousins_image').style.opacity = "1";
+            }
+
+            function cousins_stop() {
+              document.getElementById('cousins_image').style.opacity = "0";
+            }
+            cousins_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:74%;vertical-align:middle">
+          <a href="https://arxiv.org/abs/2310.12952">
+            <span class="papertitle">Cousins Of The Vendi Score: A Family Of Similarity-Based Diversity Metrics For Science And Machine Learning</span>
+          </a>
+          <br>
+	  <br>
+          <strong>Amey P. Pasarkar</strong>,
+          <a href="https://adjiboussodieng.org">Adji Bousso Dieng</a>
+          <br>
+          <em>AISTATS</em>, 2024
+          <br>
+          <p>
+          We generalize the Vendi Score to an entire family of metrics called the "Vendi scores". We demonstrate the utility of these models in evaluating image generative models, uncovering patterns of model memorization.   
+          </p>
+        </td>
+        </tr>
+          
+        <tr onmouseout="vendi_stop()" onmouseover="vendi_start()">
+        <td style="padding:20px;width:26%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='vendi_image'>
+              <img src='images/vendi_sampling_ex.jpg' width="200"></div>
+            <img src='images/vendi.jpg' width="200">
+          </div>
+          <script type="text/javascript">
+            function vendi_start() {
+              document.getElementById('vendi_image').style.opacity = "1";
+            }
+
+            function vendi_stop() {
+              document.getElementById('vendi_image').style.opacity = "0";
+            }
+            vendi_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:74%;vertical-align:middle">
+          <a href="https://pubs.aip.org/aip/jcp/article-abstract/159/14/144108/2916208/Vendi-sampling-for-molecular-simulations-Diversity?redirectedFrom=fulltext">
+            <span class="papertitle">Vendi Sampling For Molecular Simulations: Diversity As A Force For Faster Convergence And Better Exploration</span>
+          </a>
+          <br>
+	  <br>
+          <strong>Amey P. Pasarkar</strong>,
+          <a href="">Gianluca M. Bencomo</a>,
+          <a href="https://psolsson.github.io/">Simon Olsson</a>,
+          <a href="https://adjiboussodieng.org">Adji Bousso Dieng</a>
+          <br>
+          <em>Journal of Chemical Physics</em>, 2023
+          <br>
+          <p>
+          We propose Vendi Sampling, a method for fast sampling from complex Boltzmann distributions that encourages diversity throughout the sampling process. We demonstrate on various molecular systems that Vendi Sampling outperforms standard Langevin Dynamics. 
+          </p>
+        </td>
+        </tr>
+        
+        <tr onmouseout="gmm_stop()" onmouseover="gmm_start()">
+        <td style="padding:20px;width:26%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='gmm_image'>
+              <img src='images/msystems_gmm.jpg' width="200"></div>
+            <img src='images/msystems_gmm.jpg' width="200">
+          </div>
+          <script type="text/javascript">
+            function gmm_start() {
+              document.getElementById('gmm_image').style.opacity = "1";
+            }
+
+            function gmm_stop() {
+              document.getElementById('gmm_image').style.opacity = "0";
+            }
+            gmm_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:74%;vertical-align:middle">
+          <a href="https://journals.asm.org/doi/10.1128/msystems.00817-21">
+            <span class="papertitle">Directional Gaussian Mixture Models of the Gut Microbiome Elucidate Microbial Spatial Structure</span>
+          </a>
+          <br>
+	  <br>
+          <strong>Amey P. Pasarkar</strong>,
+          <a href="https://www.linkedin.com/in/tyler-joseph-96640070/">Tyler A. Joseph</a>,
+          <a href="https://www.cs.columbia.edu/~itsik/">Itsik Pe'er</a>
+          <br>
+          <em>mSystems</em>, 2021
+          <br>
+          <p>
+          We develop a class of directional Gaussian Mixture models to elucidate the spatial arrangement of the gut microbiome. With no prior information, these models are able to recapitulate known spatial dynamics and propose new ones as well. Research was also presented at Probabalistic Modeling in Genomics, 2021. 
+          </p>
+        </td>
+        </tr>
+          
+        <tr onmouseout="fcc_stop()" onmouseover="fcc_start()">
+        <td style="padding:20px;width:26%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='fcc_image'>
+              <img src='images/social.jpg' width="200"></div>
+            <img src='images/social.jpg' width="200">
+          </div>
+          <script type="text/javascript">
+            function fcc_start() {
+              document.getElementById('fcc_image').style.opacity = "1";
+            }
+
+            function fcc_stop() {
+              document.getElementById('fcc_image').style.opacity = "0";
+            }
+            fcc_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:74%;vertical-align:middle">
+          <a href="https://arxiv.org/abs/2012.09850">
+            <span class="papertitle">Social Distancing and the Internet: What Can Network Performance Measurements Tell Us?</span>
+          </a>
+          <br>
+	  <br>
+          <a href="https://www.linkedin.com/in/jessica-de-oliveira-moreira-575ba117a/">Jessica De Oliveira Moreira</a>,
+          <strong>Amey P. Pasarkar</strong>,
+          <a href="https://www.linkedin.com/in/wenjunc/"> Wenjun Chen</a>
+          <a href="https://www.linkedin.com/in/kerryhu/"> Kerry Hu</a>,
+          <a href="https://janakj.org/">Jan Janak</a>
+          <a href="https://www.cs.columbia.edu/~hgs/">Henning Schulzrinne</a>
+          <br>
+          <em>TPRC</em>, 2021
+          <br>
+          <p>
+          We analyzed fixed broadband usage across the United States in the months following COVID-19 lockdowns to determine the effect of lockdowns on internet usage patterns and network performance. We founds signs of increased congestion following significant changes in user behavior.
+          </p>
+        </td>
+        </tr>
+          
+        <tr onmouseout="luminate_stop()" onmouseover="luminate_start()">
+        <td style="padding:20px;width:26%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='luminate_image'>
+              <img src='images/luminate.jpg' width="200"></div>
+            <img src='images/luminate.jpg' width="200">
+          </div>
+          <script type="text/javascript">
+            function luminate_start() {
+              document.getElementById('luminate_image').style.opacity = "1";
+            }
+
+            function luminate_stop() {
+              document.getElementById('luminate_image').style.opacity = "0";
+            }
+            luminate_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:74%;vertical-align:middle">
+          <a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(20)30191-5">
+            <span class="papertitle">Efficient and Accurate Inference of Mixed Microbial Population Trajectories from Longitudinal Count Data</span>
+          </a>
+          <br>
+	  <br>
+          <a href="https://www.linkedin.com/in/tyler-joseph-96640070/">Tyler A. Joseph</a>,
+          <strong>Amey P. Pasarkar</strong>,
+          <a href="https://www.cs.columbia.edu/~itsik/">Itsik Pe'er</a>
+          <br>
+          <em>Cell Systems</em>, 2020
+          <br>
+          <p>
+          We develop a multi-layer probabilistic graphical model that can deconvolve microbiome time-series data into its sources of noise. We show our model can be efficiently fit with variational inference while providing more accurate resuls than existing methods. Also presented at <i>RECOMB</i> 2020.
+          </p>
+        </td>
+      </tr>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
