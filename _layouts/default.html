@@ -26,10 +26,10 @@
                 Amey Pasarkar
               </h1>
               <p>
-                I am a PhD student at Princeton University, working in <a href="https://vertaix.princeton.edu/">Vertaix</a> on developing Artifical Intelligence methods that can be applied across the natural sciences. I am fortunate to be advised by Professor <a href="https://adjiboussodieng.org/">Adji Bousso Dieng</a> and am generously supported by a NSF Graduate Research Fellowship.  
+                I am a PhD student at Princeton University, working in <a href="https://vertaix.princeton.edu/">Vertaix</a> on efficient data curation and training algorithms for AI models. I am fortunate to be advised by Professor <a href="https://adjiboussodieng.org/">Adji Bousso Dieng</a> and am generously supported by a NSF Graduate Research Fellowship.  
               </p>
               <p>
-                Prior to joining Princeton, I graduated from Columbia University with a degree in Operations Research, where I had the privilege of working under Professor <a href="https://www.cs.columbia.edu/~itsik/">Itsik Pe'er</a> on designing probabalistic graphical models for microbial dynamics. 
+                Prior to joining Princeton, I graduated from Columbia University with a degree in Operations Research, where I had the privilege of working under Professor <a href="https://www.cs.columbia.edu/~itsik/">Itsik Pe'er</a> on designing probabalistic graphical models for microbial dynamics. I have also recently interned at Amazon Science on the Fire TV team. 
               <p>
                 You can contact me at amey [dot] pasarkar [at] princeton [dot] edu. 
               </p>
@@ -59,10 +59,45 @@
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
+        <tr onmouseout="vendiscope_stop()" onmouseover="vendiscope_start()">
+        <td style="padding:20px;width:26%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='scope_image'>
+              <img src='images/vendiscope.jpeg' width="200"></div>
+            <img src='images/vendiscope.jpeg' width="200">
+          </div>
+          <script type="text/javascript">
+            function vendiscope_start() {
+              document.getElementById('scope_image').style.opacity = "1";
+            }
+
+            function vendiscope_stop() {
+              document.getElementById('scope_image').style.opacity = "0";
+            }
+            vendiscope_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:74%;vertical-align:middle">
+          <a href="https://arxiv.org/abs/2502.10828">
+            <span class="papertitle">The Vendiscope: An Algorithmic Microscope For Data Collections</span>
+          </a>
+          <br>
+	  <br>
+          <strong>Amey P. Pasarkar</strong>,
+          <a href="https://adjiboussodieng.org">Adji Bousso Dieng</a>
+          <br>
+          <em>arXiv pre-print</em>, 2025
+          <br>
+          <p>
+          We introduce the Vendiscope, a scalable algorithmic microscope for analyzing the contents of datasets and behaviors of models in any domain where similarity can be defined. The Vendiscope can detect outliers and duplicates, diagnose model failure modes, and reveal memorization patterns across modalities, all at scale.
+          </p>
+        </td>
+        </tr>
+        
         <tr onmouseout="cousins_stop()" onmouseover="cousins_start()">
         <td style="padding:20px;width:26%;vertical-align:middle">
           <div class="one">
-            <div class="two" id='vendi_image'>
+            <div class="two" id='cousins_image'>
               <img src='images/cousins_ex.jpeg' width="200"></div>
             <img src='images/cousins_ex.jpeg' width="200">
           </div>
